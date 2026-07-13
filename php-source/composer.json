@@ -1,0 +1,15 @@
+{
+    "name": "eagle-reports/generator",
+    "description": "Production ready marketing and SEO report generator for GMB campaigns",
+    "type": "project",
+    "license": "proprietary",
+    "require": {
+        "php": ">=8.0.0",
+        "mpdf/mpdf": "^8.1.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "mpdf/qrcode": true
+        }
+    }
+}

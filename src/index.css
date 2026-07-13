@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-brand-bg: #141414;
+  --color-brand-card: #1e1e1e;
+  --color-brand-border: #262626;
+  --color-brand-accent: #CFFE1C;
+}
+
+/* Custom styles */
+body {
+  background-color: var(--color-brand-bg);
+  color: #f5f5f5;
+  font-family: var(--font-sans);
+  letter-spacing: -0.01em;
+}
+
+h1, h2, h3, h4, h5, h6, .font-display {
+  font-family: var(--font-display);
+}
+
+.custom-scroll::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.custom-scroll::-webkit-scrollbar-track {
+  background: #111;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 4px;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb:hover {
+  background: #444;
+}
+
+/* Smooth active selection transition */
+.active-accent-border {
+  border-color: var(--color-brand-accent) !important;
+  box-shadow: 0 0 0 2px rgba(207, 254, 28, 0.1) !important;
+}

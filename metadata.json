@@ -1,0 +1,6 @@
+{
+  "name": "Eagle Reports Generator",
+  "description": "Professional marketing and SEO reports generator with interactive multi-step data entry, dynamic tables, rank tracker grids, and high-quality PDF exports.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
